@@ -1,0 +1,247 @@
+/** page structure **/
+#w2 {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  margin: 0px auto;
+  padding: 2px 3px;
+  position:relative;
+}
+
+
+/** posts slider widget **/
+.crsl-items2 {
+  display: block;
+  padding: 0px;
+  margin-right:0px!important;
+  margin-top:-80px;
+  margin-bottom:50px;
+ 
+}
+
+.crsl-item2 {
+  background: #fff;
+  padding: 0px;
+  
+}
+
+.crsl-item2 .thumbnails2 {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.crsl-item2 .thumbnails2 img { 
+  display: block; /* fix 1px image space http://stackoverflow.com/q/5804256/477958 */
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  width:100%;
+ height:200px;
+}
+.crsl-item2 .thumbnails2:hover img {
+  opacity: 0.8;
+}
+
+.crsl-item2 .thumbnails2:hover a:hover {
+  text-decoration: none; 
+}
+.crsl-item2 .thumbnails2:hover a:hover  .p-button{display:block;}
+
+.crsl-item2 .postdate2 {
+  width:100%;
+  display: block;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  padding-top: 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align:center;
+  background-color:#fff;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+.crsl-item2 .price2 {
+	width:100%;
+  display: block;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  padding: 0px;
+  color: #a2a2a2;
+  font-size: 14px;
+  font-weight: bold;
+  text-align:center;
+  background-color:#fff;
+}
+.crsl-item2  .p-button2{
+	width:100%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align:center;
+  display:none;
+  z-index:999;
+  margin-top:-130px;
+}
+.p-button2 button{
+	background-color:#e00025;
+	border:none;
+	padding:6px 20px;
+}
+
+.crsl-item2 p {
+  font-size: 1.2em;
+  line-height: 1.55em;
+  margin-bottom: 5px;
+}
+
+.crsl-item2 p.readmore2 a {
+  display: block;
+  float: right;
+  color: #4e90da;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.crsl-item2 p.readmore2 a:hover {
+  background: #4b6caa;
+  color: #fff;
+}
+
+
+/** posts slider nav **/
+.slidernav2 {
+  display: block;
+  margin-bottom: 5px;
+  width:100%;
+}
+
+.slidernav2 a {
+  display: inline-block;
+  font-size: 1.4em;
+  background: transparent;
+  color: #000;
+  text-decoration: none;
+ 
+}
+.slidernav2 .previous2{
+	float: left;
+    left: -175%;
+    top: 205px;
+    position: relative;
+}
+.slidernav2 .next2{
+	text-align: right;
+	left: 5%;
+	top: 205px;
+	position: absolute;
+	right: -7%;
+}
+.slidernav2 a:active {
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+
+/** media queries **/
+@media screen and (max-width: 660px) {
+  h1 { font-size: 2.4em; line-height: 1.2em; }
+  
+  .crsl-item2 h3 { font-size: 1.65em; }
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+@media(max-width:1300px)
+{
+	.slidernav2 .previous2{
+	float: left;
+	left: -168%;
+	top: 205px;
+	position: relative;
+	}
+	.slidernav2 .previous2 img{width:30px;}
+	.slidernav2 .next2{
+	text-align: right;
+	left: 92%;
+	top: 205px;
+	position: absolute;
+	z-index: 111;
+	right: -6%;
+	}
+	.slidernav2 .next2 img{width:30px;}
+}
+@media(max-width:980px)
+{
+	.slidernav2.previous2{
+		float: left;
+		left: -290% !important;
+		top: 205px;
+		position: relative;
+	}
+	.slidernav2 .next2{
+	text-align: right;
+	top: 205px;
+	position: absolute;
+	right: -12%;
+	left:0px;
+	}
+	
+}
+@media(max-width:800px)
+{
+	.slidernav2 .previous2{
+	float: left;
+	left: -115%;
+	top: 205px;
+	position: relative;
+	}
+	.slidernav2 .previous2 img{width:20px;}
+.slidernav2 .next2{
+	text-align: right;
+	left: 92%;
+	top: 205px;
+	position: absolute;
+	z-index: 111;
+	right: -3%;
+	}
+	.slidernav2 .next2 img{width:20px;}
+}
+@media(max-width:450px)
+{
+	.slidernav2 .previous2{
+	text-align:right;
+	float: rigth;
+    left: -4%;
+    top: 470px;
+    position: absolute;
+	z-index:111;
+}
+.slidernav2 .previous2 img{width:15px;}
+.slidernav2 .next2{
+	text-align: right;
+	left: 92%;
+	top: 470px;
+	position: absolute;
+	z-index: 111;
+	right: -4%;
+	}
+.slidernav2 .next2 img{width:15px;}
+
+.crsl-items2{margin-top:-50px;}
+}

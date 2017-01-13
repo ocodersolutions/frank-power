@@ -1,0 +1,168 @@
+@media(min-width:1200px)
+{
+	.container{
+		width:1110px !important;
+	}
+}
+@media(max-width:1200px)
+{	
+	.main-nav{height:85px;}
+	.main-nav li{width:79px;}
+	.main-nav li a{padding:30px 0px 30px 0px;  color:#fff; text-transform:uppercase; font-size:10px; line-height: 81px; }
+	
+	.nav-login{height:85px;}
+	.nav-login li{width:64px;}
+	.nav-login li a{font-size:10px; line-height: 81px;padding:5px 0px 5px 0px; }
+	.mynavigation-2{text-align:right; margin-right:35px; height: 80px;}
+}
+@media(max-width:980px)
+{
+	.logo-custom img{height:50px;}
+	.mynavigation{text-align:right; margin-right:-15px; height: 85px;}
+	.mynavigation-2{text-align:right; margin-right:50px; height: 80px;}
+	.main-nav-outter{height:85px;}
+	.main-nav-outter .lang li{line-height:40px;}
+	.main-nav-outter .lang li select{padding:2px; border-width:0px; width:150px;}
+	.main-nav-outter .lang li:last-child{margin-right:0px;}
+	.main-nav{list-style:none; margin-bottom:0px; display:inline-block; height:85px;}
+	.main-nav li{list-style:none; float:left; border-left:1px solid #f5e4d6; height:85px; position:relative; text-align:center;
+	width:60px;}
+	.main-nav li a{padding:30px 0px 30px 0px;  color:#fff; text-transform:uppercase; font-size:8px; line-height: 81px; }
+	.logo-custom img{height:40px;}	
+	.second-menu{height:80px;}
+	.second-menu-ul{ margin-bottom:0px;}
+	.second-menu .second-menu-ul li{position:relative;}
+	.second-menu .second-menu-ul li a{line-height:80px; font-size:10px; padding:10px 5px 10px 5px;}
+	.nav-login li{width:45px;}
+/******************************* start home ******************************************/	
+
+	.left-erro{left:10px;}
+	.right-erro{right:10px;}
+	
+	.hs-section-title{font-size:18px;}
+	.hs-section-box ul li{font-size:13px;}
+	
+	.owl-prev{position:absolute; top:30%; left:-50px;}  
+	.owl-prev img{max-width:50%;}  
+	.owl-next{position:absolute; top:30%; right:-50px;}  
+	.owl-next img{max-width:50%;}  
+	
+	.owl-carousel-2 .owl-prev{position:absolute; top:-50px; left:88%; right:40px;}
+	.owl-carousel-2 .owl-next{position:absolute; top:-50px; right:0px;}
+	
+	.fancy-ul li{width:100%;}
+
+/******************************* end home ******************************************/	
+
+/******************************* start about ******************************************/	
+
+.new-article img{max-height:180px;}
+
+/******************************* end about ******************************************/	
+	
+	
+	.banner{min-height:250px; background-position: center center;}
+	.banner-content { line-height: 250px;}
+	.banner-title{font-size:18px;font-weight:bold !important; padding:20px 30px; border-left:8px solid #fd6f07;}
+	
+	.sld-line h3{font-size:20px;padding:25px 0px;}
+	
+	.content-title{font-size:15px;}
+	.content-title-2{font-size:15px;}
+	.first-text p{font-size:14px;}
+	
+	.sc-content-title{font-size:15px; margin-top:20px; margin-top:0px;}
+	.sc-content-title-2{font-size:15px;}
+	
+	.footer-menu{margin-bottom:30px;}
+	.energy-img-txt {top: 44%;}
+/******************************* Start local ******************************************/	
+	.product-search input ,	.product-search select	{font-size:16px;margin-bottom:10px;}
+	.area p ,.area input, .area textarea, .area select {font-size:16px;}
+	.product-search button i{padding-right:5px;}
+	.product-search button{font-size:16px; padding:10px !important}
+	
+/******************************* End local ******************************************/
+	
+
+	
+}
+
+@media(max-width:800px)
+{
+	.energy-img-txt {top: 44%;}
+	
+	
+}
+@media(max-width:767px)
+{
+	.navbar{margin-bottom:0px;}
+	.navbar-header{background-color:#be5b0b; min-height:80px;}
+	.navbar-default .navbar-toggle{background-color: transparent; border-color: #fff; margin-top:20px;}
+	.navbar-default .navbar-toggle .icon-bar{background-color: #fff;}
+	.navbar-brand{width:80%; text-align:center;   height: 80px; padding: 5px 5px; line-height: 20px;}
+	
+	.navbar-brand select{width:80%; margin-bottom:10px;}
+	.mobile-menu .active a{background-color:#be5b0b !important; color:#fff !important;}
+	.mobile-menu li a:hover{background-color:#be5b0b !important; color:#fff !important;}
+
+
+/******************************* start home ******************************************/	
+
+	.sld-img{height:200px;}
+	.sld-content{ margin-top:25px;width:280px;margin-left:20px; padding:5px; border-width:5px;}
+	.home-sld-subtitle{font-size:10px;}
+	.home-sld-title{font-size:12px;}
+	.sld-content p{font-size:9px;}
+	.home-sld-btn{font-size:10px;}
+	.right-erro{right:5px;}
+	.left-erro{left:5px;}
+	
+	.owl-prev{position:absolute; top:30%; left:-33px;}  
+	.owl-prev img{max-width:40%;}  
+	.owl-next{position:absolute; top:30%; right:-33px;}  
+	.owl-next img{max-width:40%;}  
+	
+	.owl-carousel-2 .owl-prev{position:absolute; top:-50px; left:82%; right:40px;}
+	.owl-carousel-2 .owl-next{position:absolute; top:-50px; right:0px;}
+	
+	.tag-line h2{font-size: 17px;}
+	
+	.fancy-ul li{width:100%;}
+	
+
+/******************************* end home ******************************************/	
+	
+/******************************* start about ******************************************/	
+
+.dark-center-title{width:100%; line-height:30px; font-size:22px;}
+.dark-center-txt{width:100%;}
+.dark-center-txt p{font-size:14px; line-height:25px;}
+	
+/******************************* end about ******************************************/		
+	
+	.banner{min-height:170px; background-position: center center; margin-top:0px;}
+	.banner-content { line-height: 170px; padding-top:0px;}
+	.banner-title{font-size:15px;font-weight:bold !important; padding:15px 25px; border-left:5px solid #fd6f07;}
+	
+	.sld-line h3{font-size:12px;padding: 10px 0px;}
+	
+	.content-title{font-size:15px;}
+	.content-title-2{font-size:15px;}
+	.first-text{ margin-bottom:20px;}
+	.first-text p{font-size:14px;}
+	
+	.sc-content-title{font-size:15px; margin-top:20px;}
+	.sc-content-title-2{font-size:15px;}
+	.footer-menu{margin-bottom:30px;}
+	
+	.hc-title2{font-size:18px;}
+	
+/******************************* Start local ******************************************/
+	.area{width:90%; margin:10px auto;}
+	.map iframe{height:1200px;}
+	.product-search input ,	.product-search select,	.product-search button{font-size:12px;margin-bottom:10px;}
+	.area p ,.area input, .area textarea, .area select {font-size:12px;}
+/******************************* End local ******************************************/
+
+}
