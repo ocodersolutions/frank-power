@@ -19,7 +19,7 @@
 				<p><i class="fa fa-calendar" aria-hidden="true"></i> 11/11/2013 <br>
 				Generac is always innovating to meet customer needs. For instance, we just launched a 22 kW Guardian Series home standby generator. Check out our “What’s New” page to learn about it and the other new products we have available.</p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">Read the Full Article &raquo;</a>
+					<a href="<?php echo URL; ?>/news-article/generac-to-expand-its-bi-fuel-system-offering.php" class="main-fill small-btn">Read the Full Article &raquo;</a>
 				</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 				<p><i class="fa fa-calendar" aria-hidden="true"></i> 11/11/2013 <br>
 				Generac’s Bi-Fuel™ generators, which run on both diesel fuel and natural gas simultaneously, are noted for their reliability in many applications. As a result of this popularity, Generac’s 600 kW Bi-Fuel power system ... </p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">Read the Full Article &raquo;</a>
+					<a href="<?php echo URL; ?>/news-article/what-to-know-about-winter-storm-preparedness.php" class="main-fill small-btn">Read the Full Article &raquo;</a>
 				</div>
 				</div>
 			</div>
@@ -60,7 +60,7 @@
 				<p> <i class="fa fa-calendar" aria-hidden="true"></i> 11/11/2013 <br>
 					Generac’s Bi-Fuel™ generators, which run on both diesel fuel and natural gas simultaneously, are noted for their reliability in many applications. As a result of this popularity, Generac’s 600 kW Bi-Fuel power system ... </p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">Read the Full Article &raquo;</a>
+					<a href="<?php echo URL; ?>/news-article/generac-power-systems-launches-smart-and-affordable-backup.php" class="main-fill small-btn">Read the Full Article &raquo;</a>
 				</div>
 				</div>
 			</div>

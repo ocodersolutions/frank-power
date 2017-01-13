@@ -21,7 +21,7 @@
 				<p>Get a glimpse inside Generac operations across all facilities.</p>
 				</div>
 				<div class="mt3">
-					<a href="#" class="main-fill small-btn">See What's New &raquo;</a>
+					<a href="<?php echo URL; ?>about/whether-you-are-home-or-away.php" class="main-fill small-btn">See What's New &raquo;</a>
 				</div>
 			</div>
 		</div>
@@ -63,7 +63,7 @@
 				<p>Partnerships are sought with organizations and stakeholders to further the development of sustainable technologies. By adhering to these principles we strive to be a positive contributor of sustainable growth in our industry.</p>
 				</div>
 				<div class="mt3">
-					<a href="#" class="main-fill small-btn">See What's New &raquo;</a>
+					<a href="<?php echo URL; ?>about/the-generac-commitment-to-sustainability.php"" class="main-fill small-btn">See What's New &raquo;</a>
 				</div>
 			</div>
 		</div>

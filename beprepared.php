@@ -24,7 +24,7 @@
 				<p>Winter storms can occur at temperatures that are near or below freezing. Many can be accompanied by dangerously low temperatures, strong winds, icing, sleet and freezing rain.</p>
 				</div>
 				<div class="mt3">
-					<a href="#" class="main-fill small-btn">Be prepared for winter strom &raquo;</a>
+					<a href="<?php echo URL; ?>beprepared/prepare-for.php" class="main-fill small-btn">Be prepared for winter strom &raquo;</a>
 				</div>
 			</div>
 		</div>

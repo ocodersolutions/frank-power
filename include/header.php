@@ -79,7 +79,6 @@ define("URL", 'http://localhost/frank-power/');
 							<li class="active"><a href="<?php echo URL; ?>index.php">Home</a></li>
 							<li><a href="<?php echo URL; ?>product.php">All Products</a></li>
 							<li><a href="<?php echo URL; ?>homeowners.php">For home owners</a></li>
-							<li><a href="#">mobile product</a></li>
 							<li><a href="<?php echo URL; ?>resources.php">Resources & tools</a></li>
 							<li><a href="<?php echo URL; ?>energy-star.php">energy star</a></li>				<li><a href="<?php echo URL; ?>supports.php">Services & support</a></li>		
 						</ul>
