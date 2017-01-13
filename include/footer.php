@@ -21,11 +21,11 @@
 			<div class="col-md-3 col-sm-6">
 				<h3>Learn About us</h3>
 				<ul class="footer-menu">
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="news-article.php">News & Articles</a></li>
-					<li><a href="career.php">Careers</a></li>
+					<li><a href="<?php echo URL; ?>about.php">About Us</a></li>
+					<li><a href="<?php echo URL; ?>news-article.php">News & Articles</a></li>
+					<li><a href="<?php echo URL; ?>career.php">Careers</a></li>
 					<li><a href="#">Investor Relations</a></li>
-					<li><a href="media.php">Media Relations</a></li>
+					<li><a href="<?php echo URL; ?>media.php">Media Relations</a></li>
 					<li><a href="#">Patents</a></li>
 					<li><a href="#">Promotional Store</a></li>
 				</ul>
@@ -33,13 +33,13 @@
 			<div class="col-md-3 col-sm-6">
 				<h3>i'm looking for...</h3>
 				<ul class="footer-menu">
-					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="<?php echo URL; ?>contact.php">Contact Us</a></li>
 					<li><a href="#">Home Backup Power</a></li>
 					<li><a href="#">Home Backup Retailers</a></li>
 					<li><a href="#">Portable Power</a></li>
 					<li><a href="#">Pressure Washers</a></li>
-					<li><a href="business.php">Business Solutions</a></li>
-					<li><a href="heater.php">Resources & Tools</a></li>
+					<li><a href="<?php echo URL; ?>business.php">Business Solutions</a></li>
+					<li><a href="<?php echo URL; ?>heater.php">Resources & Tools</a></li>
 					<li><a href="#">Service & Support</a></li>
 				</ul>
 			</div>
@@ -83,8 +83,8 @@ Privacy Policy Terms & Conditions Site Map</p>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo URL; ?>js/bootstrap.min.js"></script>
+	<script src="<?php echo URL; ?>js/owl.carousel.min.js"></script>
 	<script>
             $(document).ready(function() {
               $('.owl-carousel').owlCarousel({
@@ -134,8 +134,8 @@ Privacy Policy Terms & Conditions Site Map</p>
               })
 			  
 			  
-				$( ".owl-prev").php('<img src="images/arrow-left-bk.png" class="img-responsive center-block">');
-				$( ".owl-next").php('<img src="images/arrow-right-bk.png" class="img-responsive center-block">');
+				$( ".owl-prev").php('<img src="<?php echo URL; ?>images/arrow-left-bk.png" class="img-responsive center-block">');
+				$( ".owl-next").php('<img src="<?php echo URL; ?>images/arrow-right-bk.png" class="img-responsive center-block">');
             })
           </script>
   </body>
