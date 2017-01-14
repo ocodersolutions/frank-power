@@ -4,7 +4,7 @@
 <div class="banner" style="background:url('<?php echo URL; ?>images/home1.jpg'); background-size: cover; background-position:0% 57%; " >
 	<div class="container">
 		<div class="banner-content">
-			<h1 class="banner-title">GENERAC POWER SYSTEMS LAUNCHES SMART AND AFFORDABLE BACKUP</h1>
+			<h1 class="banner-title">THE GENERATOR TURNS ON AUTOMATICALLY - WHETHER YOU’RE HOME OR AWAY</h1>
 		</div>
 	</div>
 </div>
