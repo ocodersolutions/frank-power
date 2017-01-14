@@ -4,7 +4,7 @@
 <div class="banner" style="background:url('<?php echo URL; ?>images/home1.jpg'); background-size: cover; background-position:0% 57%; " >
 	<div class="container">
 		<div class="banner-content">
-			<h1 class="banner-title">BUY GENERAC PARTS ONLINE</h1>
+			<h1 class="banner-title">Explore Products</h1>
 		</div>
 	</div>
 </div>

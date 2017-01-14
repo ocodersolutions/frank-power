@@ -78,10 +78,10 @@
 					<img src="images/hs-1.jpg" class="img-responsive pt2 pb2">
 					<p>Generac generators can power virtually any task at home or on the road, and keep the lights on during a power outage. And our pressure washers power through dirt and grime.</p>
 					<ul>
-						<li>What's New</li>
-						<li>Home Backup Generators</li>
-						<li>Portable Recretional Generators</li>
-						<li>Pressure Washers</li>
+						<a href="<?php echo URL; ?>home/whats-new.php"><li>What's New</li></a>
+						<a href="<?php echo URL; ?>home/home-backup-generators.php"><li>Home Backup Generators</li></a>
+						<a href="<?php echo URL; ?>home/portable-recretional-generators.php"><li>Portable Recretional Generators</li></a>
+						<a href="<?php echo URL; ?>home/pressure-washers.php"><li>Pressure Washers</li></a>
 					</ul>
 				</div>
 			</div>
@@ -92,8 +92,8 @@
 					<img src="images/hs-2.jpg" class="img-responsive pt2 pb2">
 					<p>Whether your business is mission critical or you just want a competitive advantage over your competitors during a power outage, Generac backup generators can protect your bottom line</p>
 					<ul>
-						<li>Solutions by Industry</li>
-						<li>Explore Products</li>
+						<a href="<?php echo URL; ?>home/solutions-by-industry.php"><li>Solutions by Industry</li></a>
+						<a href="<?php echo URL; ?>home/explore-products.php"><li>Explore Products</li></a>
 					</ul>
 				</div>
 			</div>
@@ -104,9 +104,9 @@
 					<img src="images/hs-3.jpg" class="img-responsive pt2 pb2">
 					<p>Get all the information you need to select Generac products, including generator sizing calculators, spec sheets, and professional resources.</p>
 					<ul>
-						<li>Homeowner Resources</li>
-						<li>Engineer Resources</li>
-						<li>Contractor & Installer Resources</li>
+						<a href="<?php echo URL; ?>home/homeowner-resources.php"><li>Homeowner Resources</li></a>
+						<a href="<?php echo URL; ?>home/engineer-resources.php"><li>Engineer Resources</li></a>
+						<a href="<?php echo URL; ?>home/contractor-and-installer-resources.php"><li>Contractor & Installer Resources</li></a>
 					</ul>
 				</div>
 			</div>
