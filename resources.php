@@ -63,7 +63,7 @@
 				<div class="text-center  dark-center-txt">
 					<p class="pt3">A <span class="main-color">Generac home backup generator</span> senses a power outage, turns on automatically, and delivers backup power to your home. It will run until utility power returns - whether that's two hours or two weeks.</p>
 					<div class="mt5">
-						<a href="#" class="sc-main-fill small-btn">Learn More »</a>
+						<a href="<?php echo URL; ?>resources/united-states-environmental-protection-warranty-statements.php" class="sc-main-fill small-btn">Learn More »</a>
 					</div>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 				<p>Within a few seconds, it is up to speed and generating electricity.</p>
 				</div>
 				<div class="mt3">
-					<a href="#" class="main-fill small-btn">See What's New »</a>
+					<a href="<?php echo URL; ?>resources/the-generator-turns-on-automatically-whether-you-are-home-or-away.php" class="main-fill small-btn">See What's New »</a>
 				</div>
 			</div>
 		</div>

@@ -24,7 +24,7 @@ with the perfect shape, color, and brightness for your home.</p>
 				</div>
 			</div>
 			<div class="mt3 mb3">
-					<a href="#" class="main-fill small-btn">Learn More &raquo;</a>
+					<a href="<?php echo URL; ?>energy-star/choose-a-light-with-energy-star.php" class="main-fill small-btn">Learn More &raquo;</a>
 			</div>
 		</div>
 		<div class="col-md-5 col-sm-5 energy-img">
@@ -96,7 +96,7 @@ with the perfect shape, color, and brightness for your home.</p>
 					
 					<p class="mt4">Welcome to your personalized tool for saving energy with ENERGY STAR. Below are featured actions to help you get started. Create your own My ENERGY STAR account and see how your simple actions can make a big difference.</p>
 					<div class="mt6">
-						<a href="#" class="sc-main-fill small-btn">Learn More &raquo;</a>
+						<a href="<?php echo URL; ?>energy-star/energy-efficiency.php" class="sc-main-fill small-btn">Learn More &raquo;</a>
 					</div>
 				</div>
 			</div>

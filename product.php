@@ -20,7 +20,7 @@
 				<p style="color:#e59f24">OVER 50 YEARS OF POWER GENERATION EXPERTISE</p>
 				<p>Generac makes generators for home, business, and industrial applications. Fueled by liquid propane, natural gas, or diesel fuel. Protecting your investments against power outages.</p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">Learn More &raquo;</a>
+					<a href="<?php echo URL; ?>product/over-50-years-of-power-generation-expertise.php" class="main-fill small-btn">Learn More &raquo;</a>
 				</div>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 					<p style="color:#e59f24"class="mt2 mb2">POWER TO CLEAN™. AT HOME. AT WORK. AND EVERYWHERE IN BETWEEN.</p>
 					<p>Cleaning has never been easier than with a Generac pressure washer. Whether washing the driveway or prepping for a painting job.</p>
 					<div class="mt3">
-						<a href="#" class="sc-main-fill small-btn">Learn More &raquo;</a>
+						<a href="<?php echo URL; ?>product/power-to-clean-at-home-at-work-and-everywhere-in-between.php" class="sc-main-fill small-btn">Learn More &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@ generator to your home's electrical system with a Generac manual transfer switch
 				<p style="color:#BE5B0B"class=" mb2">MAXIMIZE YOUR INVESTMENT. MAINTAIN YOUR GENERAC PRODUCT.</p>
 				<p>Enhance the performance of your Generac generator or pressure washer with a variety of accessories. And keep it running properly with a full assortment of maintenance products.</p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">See What's New &raquo;</a>
+					<a href="<?php echo URL; ?>product/maximize-your-investment.-maintain-your-generac-product.php" class="main-fill small-btn">See What's New &raquo;</a>
 				</div>
 				</div>
 			</div>
