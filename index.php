@@ -131,7 +131,7 @@
 					<p class="dark-line">SYSTEMS FOR VIRTUALLY EVERY INDUSTRY</p>
 					<p>Different industries have different concerns when it comes to standby power. Health care applications must abide by strict regulations regarding life safety. Data centers seek a certain Tier Certification. Whatever the unique needs of the industry you serve, Generac has the expertise to help you design, install, commission, and support a standby power system that will meet them.</p>
 					<div class="mt3">
-						<a href="#" class="sc-main-fill small-btn">Learn More &raquo;</a>
+						<a href="<?php echo URL; ?>home/systems-for-virtually-every-industry.php" class="sc-main-fill small-btn">Learn More &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 					<li>Buy Pressure Washer Parts & Accessories</li>
 				</ul>
 				<div class="mt3">
-					<a href="#" class="bk-main-fill small-btn">Learn More &raquo;</a>
+					<a href="<?php echo URL; ?>home/buy-generac-parts-online.php" class="bk-main-fill small-btn">Learn More &raquo;</a>
 				</div>
 			</div>
 		</div>
