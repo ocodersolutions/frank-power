@@ -1,5 +1,6 @@
 <?php
-define("URL", 'http://localhost/frank-power/');
+// define("URL", 'http://localhost/frank-power/');
+define("URL", 'http://frank-power.local/');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +22,7 @@ define("URL", 'http://localhost/frank-power/');
     <link href="<?php echo URL; ?>css/font-awesome.css" rel="stylesheet">
     <link href="<?php echo URL; ?>css/custom.css" rel="stylesheet">
 	<link href="<?php echo URL; ?>css/responsive.css" rel="stylesheet">
+	<link href="<?php echo URL; ?>css/toan.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="<?php echo URL; ?>../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
