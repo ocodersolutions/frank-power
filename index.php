@@ -78,10 +78,10 @@
 					<img src="images/hs-1.jpg" class="img-responsive pt2 pb2">
 					<p>Generac generators can power virtually any task at home or on the road, and keep the lights on during a power outage. And our pressure washers power through dirt and grime.</p>
 					<ul>
-						<li>What's New</li>
-						<li>Home Backup Generators</li>
-						<li>Portable Recretional Generators</li>
-						<li>Pressure Washers</li>
+						<a href="<?php echo URL; ?>home/whats-new.php"><li>What's New</li></a>
+						<a href="<?php echo URL; ?>home/home-backup-generators.php"><li>Home Backup Generators</li></a>
+						<a href="<?php echo URL; ?>home/portable-recretional-generators.php"><li>Portable Recretional Generators</li></a>
+						<a href="<?php echo URL; ?>home/pressure-washers.php"><li>Pressure Washers</li></a>
 					</ul>
 				</div>
 			</div>
@@ -92,8 +92,8 @@
 					<img src="images/hs-2.jpg" class="img-responsive pt2 pb2">
 					<p>Whether your business is mission critical or you just want a competitive advantage over your competitors during a power outage, Generac backup generators can protect your bottom line</p>
 					<ul>
-						<li>Solutions by Industry</li>
-						<li>Explore Products</li>
+						<a href="<?php echo URL; ?>home/solutions-by-industry.php"><li>Solutions by Industry</li></a>
+						<a href="<?php echo URL; ?>home/explore-products.php"><li>Explore Products</li></a>
 					</ul>
 				</div>
 			</div>
@@ -104,9 +104,9 @@
 					<img src="images/hs-3.jpg" class="img-responsive pt2 pb2">
 					<p>Get all the information you need to select Generac products, including generator sizing calculators, spec sheets, and professional resources.</p>
 					<ul>
-						<li>Homeowner Resources</li>
-						<li>Engineer Resources</li>
-						<li>Contractor & Installer Resources</li>
+						<a href="<?php echo URL; ?>home/homeowner-resources.php"><li>Homeowner Resources</li></a>
+						<a href="<?php echo URL; ?>home/engineer-resources.php"><li>Engineer Resources</li></a>
+						<a href="<?php echo URL; ?>home/contractor-and-installer-resources.php"><li>Contractor & Installer Resources</li></a>
 					</ul>
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 					<p class="dark-line">SYSTEMS FOR VIRTUALLY EVERY INDUSTRY</p>
 					<p>Different industries have different concerns when it comes to standby power. Health care applications must abide by strict regulations regarding life safety. Data centers seek a certain Tier Certification. Whatever the unique needs of the industry you serve, Generac has the expertise to help you design, install, commission, and support a standby power system that will meet them.</p>
 					<div class="mt3">
-						<a href="#" class="sc-main-fill small-btn">Learn More &raquo;</a>
+						<a href="<?php echo URL; ?>home/systems-for-virtually-every-industry.php" class="sc-main-fill small-btn">Learn More &raquo;</a>
 					</div>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 					<li>Buy Pressure Washer Parts & Accessories</li>
 				</ul>
 				<div class="mt3">
-					<a href="#" class="bk-main-fill small-btn">Learn More &raquo;</a>
+					<a href="<?php echo URL; ?>home/buy-generac-parts-online.php" class="bk-main-fill small-btn">Learn More &raquo;</a>
 				</div>
 			</div>
 		</div>
@@ -174,21 +174,21 @@
 					<div class="sp-img">
 						<img src="images/p-1.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC GENERATORS</h4>
+						<a href="<?php echo URL; ?>product/over-50-years-of-power-generation-expertise.php"><h4 class="sp-title">GENERAC GENERATORS</h4></a>
 						<p>OVER 50 YEARS OF POWER GENERATION EXPERTISE.</p>
 				</div>
 				<div class="sp-box">
 					<div class="sp-img">
 						<img src="images/p-2.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC PRESSURE WASHERS</h4>
+						<a href="<?php echo URL; ?>product/power-to-clean-at-home-at-work-and-everywhere-in-between.php"><h4 class="sp-title">GENERAC PRESSURE WASHERS</h4></a>
 						<p>POWER TO CLEAN™. AT HOME. AT WORK. AND EVERYWHERE IN BETWEEN.</p>
 				</div>
 				<div class="sp-box">
 					<div class="sp-img">
 						<img src="images/p-3.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC TRANSFER SWITCHES</h4>
+						<a href="<?php echo URL; ?>home/safely-connect-your-generator-to-your-home-or-business.php"><h4 class="sp-title">GENERAC TRANSFER SWITCHES</h4></a>
 						<p>SAFELY CONNECT YOUR GENERATOR TO YOUR HOME OR BUSINESS.</p>
 				</div>
 			</div>

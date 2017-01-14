@@ -134,8 +134,8 @@ Privacy Policy Terms & Conditions Site Map</p>
               })
 			  
 			  
-				$( ".owl-prev").php('<img src="<?php echo URL; ?>images/arrow-left-bk.png" class="img-responsive center-block">');
-				$( ".owl-next").php('<img src="<?php echo URL; ?>images/arrow-right-bk.png" class="img-responsive center-block">');
+				$( ".owl-prev").html('<img src="<?php echo URL; ?>images/arrow-left-bk.png" class="img-responsive center-block">');
+				$( ".owl-next").html('<img src="<?php echo URL; ?>images/arrow-right-bk.png" class="img-responsive center-block">');
             })
           </script>
   </body>

@@ -19,7 +19,7 @@
 				<div class="hc-text pt2">
 				<p>Generac is always innovating to meet customer needs. For instance, we just launched a 22 kW Guardian Series home standby generator. Check out our “What’s New” page to learn about it and the other new products we have available.</p>
 				<div class="mt5 mb3">
-					<a href="#" class="main-fill small-btn">See What's New &raquo;</a>
+					<a href="<?php echo URL; ?>homeowners/new-product.php" class="main-fill small-btn">See What's New &raquo;</a>
 				</div>
 				</div>
 			</div>
@@ -86,7 +86,7 @@
 					<p class="pt3">A <span style="color:#e59f24">Generac home backup generator</span> senses a power outage, turns on automatically, and delivers backup power to your home. It will run until utility power returns - whether that's two hours or two weeks.</p>				
 				</div>
 				<div class="mt3" style="text-align:center;">
-						<a href="#" class="sc-main-fill small-btn">Learn More &raquo;</a>
+						<a href="<?php echo URL; ?>homeowners/how-does-a-home-backup-generator-work.php" class="sc-main-fill small-btn">Learn More &raquo;</a>
 				</div>
 			</div>
 			
