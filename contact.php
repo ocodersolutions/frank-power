@@ -40,7 +40,7 @@
 				<p>Here you can find the specifications, product and owner manuals, parts diagrams, how-to-videos and more for your product.</p>				
 			</div>
 			<div class="mt3" style="text-align:center;">
-				<a href="#" class="sc-main-fill small-btn">Get Online Support &raquo;</a>
+				<a href="<?php echo URL; ?>contact/for-service-and-maintenance.php" class="sc-main-fill small-btn">Get Online Support &raquo;</a>
 			</div>
 		</div>
 		
@@ -51,7 +51,7 @@
 				<p>We’ve partnered with OrderTree.com to provide genuine Generac parts and accessories for your power generator and engine powered products</p>				
 			</div>
 			<div class="mt3" style="text-align:center;">
-				<a href="#" class="sc-main-fill small-btn">Find Parts &raquo;</a>
+				<a href="<?php echo URL; ?>contact/for-all-generac-products.php" class="sc-main-fill small-btn">Find Parts &raquo;</a>
 			</div>
 		</div>
 		
@@ -62,7 +62,7 @@
 				<p>Factory trained technicians are equipped to handle all your maintenance, service and warranty repair needs.</p>				
 			</div>
 			<div class="mt3" style="text-align:center;">
-				<a href="#" class="sc-main-fill small-btn">Find a Dealer &raquo;</a>
+				<a href="<?php echo URL; ?>contact/for-service-and-maintenance.php" class="sc-main-fill small-btn">Find a Dealer &raquo;</a>
 			</div>
 		</div>
 		
