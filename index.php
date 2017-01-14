@@ -174,21 +174,21 @@
 					<div class="sp-img">
 						<img src="images/p-1.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC GENERATORS</h4>
+						<a href="<?php echo URL; ?>product/over-50-years-of-power-generation-expertise.php"><h4 class="sp-title">GENERAC GENERATORS</h4></a>
 						<p>OVER 50 YEARS OF POWER GENERATION EXPERTISE.</p>
 				</div>
 				<div class="sp-box">
 					<div class="sp-img">
 						<img src="images/p-2.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC PRESSURE WASHERS</h4>
+						<a href="<?php echo URL; ?>product/power-to-clean-at-home-at-work-and-everywhere-in-between.php"><h4 class="sp-title">GENERAC PRESSURE WASHERS</h4></a>
 						<p>POWER TO CLEAN™. AT HOME. AT WORK. AND EVERYWHERE IN BETWEEN.</p>
 				</div>
 				<div class="sp-box">
 					<div class="sp-img">
 						<img src="images/p-3.png" class="img-responsive">
 					</div>
-						<h4 class="sp-title">GENERAC TRANSFER SWITCHES</h4>
+						<a href="<?php echo URL; ?>home/safely-connect-your-generator-to-your-home-or-business.php"><h4 class="sp-title">GENERAC TRANSFER SWITCHES</h4></a>
 						<p>SAFELY CONNECT YOUR GENERATOR TO YOUR HOME OR BUSINESS.</p>
 				</div>
 			</div>
