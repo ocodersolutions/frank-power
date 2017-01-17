@@ -77,7 +77,9 @@ while($row = mysqli_fetch_assoc($results)){
 				</div>
 				<div class="form-group">
 					<label for="description">Description:</label>
-					<input type="text" class="form-control" name="description"  value="<?php echo $edit['description']; ?>" placeholder="Enter description">
+					<textarea name="description" id="editor1" rows="10" cols="80">
+		                <?php echo $edit['description']; ?>
+		            </textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 				<a href="../admin/manager_products.php"><button class="btn btn-info">Back to list</button></a>
@@ -115,7 +117,7 @@ while($row = mysqli_fetch_assoc($results)){
 				</div>
 				<div class="form-group">
 					<label for="description">Description:</label>
-					<input type="text" class="form-control" name="description"  placeholder="Enter description">
+					<textarea name="description" id="editor1" rows="10" cols="80"></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 				<a href="../admin/manager_products.php"><button class="btn btn-info">Back to list</button></a>
@@ -165,5 +167,11 @@ while($row = mysqli_fetch_assoc($results)){
     </div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../ckeditor/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace( 'editor1',{
+        	filebrowserBrowseUrl: '../Filemanager-master/index.html'
+        });
+    </script>
   </body>
 </html>
