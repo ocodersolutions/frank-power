@@ -125,7 +125,7 @@ line-height:100px; text-align:center; position:relative;}
 .main-nav li a{/* width:125px; */ line-height:100px; padding:41px 0px 41px 0px; color:#fff; text-transform:uppercase; font-size:12px; outline: 0 !important;}
 
 .nav-login{list-style:none; margin-bottom:0px;  display:inline-block;padding:0px !important;float: right;}
-.nav-login li{list-style:none; float:left; width:85px;  transition-duration: 0.75s;
+.nav-login li{list-style:none; float:left;   transition-duration: 0.75s;
 line-height:100px; text-align:center; position:relative;}
 .nav-login li a{/* width:125px; */ line-height:100px; padding:5px 15px 5px 15px; color:#fff; text-transform:uppercase; font-size:12px;outline: 0!important;}
 .nav-login li a:hover{background: #000 !important;}

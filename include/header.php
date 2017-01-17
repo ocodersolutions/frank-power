@@ -1,6 +1,6 @@
 <?php
-// define("URL", 'http://localhost/frank-power/');
-define("URL", 'http://frank-power.local/');
+session_start();
+define("URL", 'http://localhost/frank-power/');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,21 +23,11 @@ define("URL", 'http://frank-power.local/');
     <link href="<?php echo URL; ?>css/custom.css" rel="stylesheet">
 	<link href="<?php echo URL; ?>css/responsive.css" rel="stylesheet">
 	<link href="<?php echo URL; ?>css/toan.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="<?php echo URL; ?>../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="<?php echo URL; ?>https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="<?php echo URL; ?>https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 	
   </head>
 
 <body>
 
-<!----------------------------------- start navigation bar ----------------------------------------->
 <div class="ds-header visible-md-* hidden-xs visible-sm-* visible-lg-*">
 	<div class="container-fluid main-nav-outter">
 		<!-- Fixed navbar -->
@@ -48,8 +38,14 @@ define("URL", 'http://frank-power.local/');
 				</div>
 				<div class="col-md-2 col-sm-2 login-custom">
 					<ul class="nav-login">
+					<?php  
+					if (isset($_SESSION["userLogged"])) { ?>
+						<li><a href="#">Hello <?php echo $_SESSION["userLogged"]["username"]; ?></a></li>
+						<li><a href="<?php echo URL; ?>admin/logout.php">Log Out</a></li>
+					<?php }else{ ?>
 						<li><a href="#">SIGN UP</a></li>
-						<li><a href="#">SIGN IN</a></li>
+						<li><a href="<?php echo URL; ?>admin/login.php">SIGN IN</a></li>
+					<?php } ?>
 					</ul>
 				</div>
 				<div class="col-md-7 col-sm-7">
@@ -69,7 +65,6 @@ define("URL", 'http://frank-power.local/');
 			</div>
 		</div>
 	</div>
-	<!----------------------------------- end navigation bar ----------------------------------------->
 
 	<div class="second-menu-outter">
 		<div class="second-menu ">

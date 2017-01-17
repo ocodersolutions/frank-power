@@ -2,7 +2,7 @@
 session_start(); 
 
 if(array_key_exists('userLogged', $_SESSION)){
-  header("Location: index.php");
+  header("Location: ../index.php");
 }
 
 $errorMessage = '';
@@ -18,7 +18,7 @@ if ( !empty($_POST)) {
   
   if ($results->num_rows > 0) {
     $_SESSION['userLogged'] = $results->fetch_array();
-    header('Location: index.php');
+    header('Location: ../index.php');
   } else {
     $errorMessage = "Username or password is not correct!";
   }
@@ -35,8 +35,8 @@ if ( !empty($_POST)) {
     <title>Pip Rebate Report</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/signin.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/signin.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,6 +69,6 @@ if ( !empty($_POST)) {
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
